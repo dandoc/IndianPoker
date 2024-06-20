@@ -91,7 +91,7 @@ public class PvE {
                         player.addChips(playerBetting); // Player wins the bet
                         
                         System.out.println("================================================");
-                        System.out.println("Player 's card:");
+                        System.out.println("Player's card:");
                         System.out.println(playerCard.getPattern());
                         System.out.println("Computer's card:");
                         System.out.println(computerCard.getPattern());
@@ -106,7 +106,7 @@ public class PvE {
                     player.removeChips(2);
                     
                     System.out.println("================================================");
-                    System.out.println("Player 's card:");
+                    System.out.println("Player's card:");
                     System.out.println(playerCard.getPattern());
                     System.out.println("Computer's card:");
                     System.out.println(computerCard.getPattern());
@@ -146,7 +146,7 @@ public class PvE {
                         player.removeChips(2);
                         
                         System.out.println("================================================");
-                        System.out.println("Player 's card:");
+                        System.out.println("Player's card:");
                         System.out.println(playerCard.getPattern());
                         System.out.println("Computer's card:");
                         System.out.println(computerCard.getPattern());
@@ -155,14 +155,13 @@ public class PvE {
                         computer.addChips(computerBetting); // Computer wins the bet
                         System.out.println("Press any key to continue to the next round...");
                         scanner.nextLine();
-                        scanner.nextLine();
                         continue;
                     }
                 } else {
                     System.out.println("Computer folds. Losing 2 chips.");
                     
                     System.out.println("================================================");
-                    System.out.println("Player 's card:");
+                    System.out.println("Player's card:");
                     System.out.println(playerCard.getPattern());
                     System.out.println("Computer's card:");
                     System.out.println(computerCard.getPattern());
@@ -202,6 +201,7 @@ public class PvE {
             System.out.println("================================================");
 
             System.out.println("Press any key to continue to the next round...");
+            scanner.nextLine();
             scanner.nextLine();
         }
 
